@@ -340,4 +340,4 @@ public class CustomSerializationExample {
 }
 ```
 
-在这个示例中，`CustomObject`类有一个`transient`字段`sensitiveData`，它不应该被默认序列化机制处理。我们通过自定义的`writeObject`和`readObject`方法来控制这个字段的序列化和反序列化过程。通过这种方式，开发者可以更灵活地控制序列化过程，以满足特定的应用需求。
+在这个示例中，`CustomObject`类有一个`transient`字段`sensitiveData`，它不应该被默认序列化机制处理。我们通过自定义的`writeObject`和`readObject`方法来控制这个字段的序列化和反序列化过程。
